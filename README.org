@@ -1,0 +1,94 @@
+* Unix
+
+** Contexto histórico
+*** Bell Labs
+**** Laboratório onde foi criado C, C++, o transistor.
+**** C foi criado em conjunto com o UNIX.
+**** Thompson & Ritchie
+
+*** Sistemas UNIX e UNIX-like
+
+Hoje o UNIX não é mais um sistema, e sim uma família de sistemas
+derivados.
+
+**** UNIX
+***** BSD
+***** Outros como AIX, HP-UX...
+**** UNIX-like
+***** GNU/Linux
+***** Minix
+
+*** Usos atuais
+**** Servidores
+**** Supercomputadores
+**** Computação pessoal
+***** Desktop
+***** Smartphones
+
+* GNU/Linux
+** Introdução
+
+É um sistema UNIX-like, de fácil acesso, e bem usável para computação
+pessoal.
+
+** Histórico
+*** Criado por Linus Torvalds em 1991
+
+I'm doing a (free) operating system (just a hobby, won't be big and
+professional like gnu) for 386(486) AT clones.  This has been
+brewing since april, and is starting to get ready.  I'd like any
+feedback on things people like/dislike in minix, as my OS resembles
+it somewhat (same physical layout of the file-system (due to
+practical reasons) among other things).
+
+I've currently ported bash(1.08) and gcc(1.40), and things seem to
+work. This implies that I'll get something practical within a few
+months, and I'd like to know what features most people would want.
+Any suggestions are welcome, but I won't promise I'll implement
+them :-)
+
+PS.  Yes - it's free of any minix code, and it has a multi-threaded
+fs. It is NOT protable (uses 386 task switching etc), and it
+probably never will support anything other than AT-harddisks, as
+that's all I have :-(. 
+
+*** Kernel Linux e GNU
+
+O kernel Linux acabou sendo utilizado no projeto GNU, que pretendia
+fornecer um sistema operacional completo e aberto, e é a base das
+distribuições Linux (mais corretamente GNU/Linux) que são utilizadas
+hoje.
+
+*** Distribuições
+
+**** Por user-friendliness
+***** Linux Mint
+***** Ubuntu
+***** Fedora
+***** Debian
+***** Arch Linux
+***** Slackware
+***** Gentoo
+
+**** Not even a distro
+***** LFS (tr00 hardcore black metal senhô da etenidaaadi)
+
+**** Release format
+***** Rolling
+***** Standard
+
+**** Gerência de pacotes
+
+Toda distribuição é definida, basicamente, pela forma como os
+programas são empacotados e instalados. Na maior parte dos casos,
+isso é feito com um gerenciador de pacotes.
+
+***** Exemplos:
+****** portage
+****** pacman
+****** yum
+****** apt
+
+*** Usando o terminal
+
+* Curiosidades
